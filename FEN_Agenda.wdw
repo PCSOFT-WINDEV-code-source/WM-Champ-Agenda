@@ -1,0 +1,374 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Agenda
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Agenda
+ identifier : 0x2be9a5d7115f5e6d
+ internal_properties : CAAAAAgAAACjKo0AbJr+RjEBR4KvTIRAvtnmbt1L2U+/lLWuYi5UL7JM0vZdBPFORW0xySfi4pLoZrX+YDAuyqlNOyHOVV1xI8tEy0iWHg2z10MpaIXSnznack6W3zGsf5Rdo7pKeryuTsaDjRPlr/Gp1XQJ3gKztb+yOIGXG8Ef1N/Mi6TKyDFxX8EktubPiU8mz5gcemMV3HEvUWf+hhmJ4YtunOf7e9uPR4FczANFswtfA6lJ6Txs2AOSkt9haN8YvAEx86JoA+07H8tTkEcBjB1cBTLu8JftQDvRK/284MLY8mvJGOA8dN/84tkKFtqJr83/2r/l5hBLXiGSiLEP5g2yUGFnBG4NPRt4e16HWIc9gWbjzlza+i+/X/w72Gvl8S/06ueLYO4Jm8aG+8i/eCPCt6ddW4xDSTloyah3IG0u8vO6yXmcd9AllAkN63s4NAOP6wJAaOJmoHzIRLMz69mL7RW2GyJPjSY8FdqRIz1r0skBrWo4bbtPgs3cd9byh1Z/SfAcJKiLZVQ0IdWw2coAECh7K/FXmdhVtASrd/pd5Lm/edFyKYYjfEqC6MA9hyNymskBqAfNzuClaMsIF539m6ephBZZt/Q46QL47jB79qftCZJ0Y812iT/kd1qC7yd10SyyMTNlNpM/3rH5+Ni8Evs2jodih6VHXHjVm4e1gO7D7TqIw9Kver3C36vxJiHlz88u/KNQUnTyayxaWsrc3LTX0SlQyREgLBCiCBMXZtKUGSRyDE0Nj3HI4+QxATiu1A==
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : BTN_Jour
+    identifier : 0x2be9ac0c11949c7b
+    internal_properties : CAAAAAgAAADXm2bTMrqj7fR8wSe+Uqo6+F5fc+CXJ6yxMB4pfQ58IDuS6BvpNqcU7XuEdA1qcv8dgVvpT+btm/3LLdHys8Pl/Br5ilH0H8gyZH3M6LWd9BCLXdq4yOWQbAMd4U9WxJv5+6ycvbxJ9OZcK+YNO6bGOxxwD8C7bZewjtJ0V0UbwGuqkm2L3Mp9Q3V4dfZ0XdlOAddahRs2HDW1rJ4jrfdMY49hPTv025J/9fWK9lXyVDP6UsE5AHMxWF3blr6I4hmXjFwTL66oeO7LiVMTVr9jNzME/t6yB9tq50O2vMEVVEix4DYQQ/bKqW3D9/jOqu912AsrcpJSIlmJ1Zd24fHzYMsjFDlCISd+c5+tbRh9ilaDPoke/OGOGcx1vDObwuYHkM5cG0WrKj8ghBhmkfIA0Ry2oVT4t7qxMN545yRnD0/xat/faBhs0Vt4aBRFSA3a75Jgb6OpTZbTnnXeGcZMsi2zfBc9dxgg1SO6FU/9aW6M4gbzgN2N0KJNKFjUXf/YIipyb+9IxD6PRcOS04G6oGK4YH3DsYttOu4yrKDDaKe5tnScGkqE12c4KFh2xwoeLX+dJ/kO5Hcg7thSyrtewFq/7NTjJP+XUNRAgTe00eYLIERA+C/a0n6HCES4XNa3/M4DCVeKFz4c0StK1dQhjQsv7GemJteJ4FaCxkPFJYiXfCS3tErTFvF1J8m+HBU0UkBalXfrfTRd0g/+lVACPeK0gIe4EPisufqGDwzhd8BbL7QrVMbiVqw51zFsI5e+9EsvLbp3oPUbcEDuUlRUWY4MbIZPLiENNQ==
+    properties :
+     x : 17
+     y : 22
+     width : 96
+     height : 36
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         ChangeModeAgenda(AgendaMode_Jour)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Semaine
+    identifier : 0x2be9ac0c11969c7b
+    internal_properties : CAAAAAgAAAD42oWADvxbViq690cCbBVu0y/HIGVu0pG63G6OZkbWMO9uWVAL9RIAH4xixyYvfIxW2YW0OSvVhMFOADDp3NUc0VdBJon3W7Gw18hDqY/9pCkVU7Y9tstjs7iURVa9yOdSeppw1aCcjrIR1DhfaFEd/IqZt0g0DxyYWpSmd+DgoCWOe6eWJfnNRXJAit4lUHLgHE1Fc/oIOxaCshqUjRovXIFwIOPaIl0Vpyytxyd3/Gd0+H6FbOXbvXQ54oqYh0D81YNnWImGo2Dhgm73gQmz9YKRyxfV1u4EGgueXvrhAJ7gKL7xQoPu+xzFOj4yqbxbCvWhFyQV0WJSKcYo7zlOHsRx4i2Xo3e9aq+e1Mrk6cQ7sARNehIfXqGuiHVNmSBV9tShrQFhO4gqJDs4z3S7e7Pk4tnkujLvqEu9IrbFOEFsrrS+7L0WOflJwZ9DSsomQAofXsfu+/atMfyl6caNvC6RDzxLYIwqySgXfnt5jipzAHfSMrLNok7i/Rmmo15mbb4d+MvV4LjDfrCXQ9F1DLvULfwjcAuvrgXJOe49P4fEHPW9qgPq5/ujq9V8qRM42vWGYHtrEgtsS7VHSptFoOHF3591G+fZDjl9+FX20Fx0fG93yp5W9MZwUV9MEGERHYAIll/xL5w45hSv4cA0UZKfS+y2lQev/g+T4QkPwlQgUgWcTk/Rkn+6PNAwgvS87/QPoO/86/SL6zJQEoEzbSevvrBVDAG3hTkWDqLwAAI6RaB+4LHsILzdRPKnAdmTm4Ri9IZSkgF9fYfRfxeYmzzg7YzogPgwPX+H4w==
+    properties :
+     x : 112
+     y : 22
+     width : 96
+     height : 36
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         ChangeModeAgenda(AgendaMode_Semaine_5)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Mois
+    identifier : 0x2be9ac0c11989c7b
+    internal_properties : CAAAAAgAAAAEb8OrUdpX6D5Ig0OiGQR6t7vtxQ6YWXjdg0QDVb5znj/+qk9Qg38Saml4xoVPf+idyfkrxR++rsKPM+jxwurUlAQUllm04pVDGpghEpUeyBvxyTVVA2jcK6oFs5XW93OQCFsBxK3F5D9bEfSkiCzjNrtcM5sc4kmeNToO8GojPEhQR1syg5wDyiR1Ty4EA3uJOFqC4WHVyV3WQMxVTo5KiOWmntYhL4UzuYMAVN51kaThMePpWeXZ5n2YLu53W6OWQ1BzZTLzuXGyc5TfaykzILDgVxGm/kyj53fNghbTSBmC75OC3AvbLlXDex0aWcjGqyLadILKhkn7XGbJ3IwFwlXAemeGLpOPzgqXfO4qoz0AJanFRsABAZFy7eIwpEyyZGAcCuld0mOvIMEQb+hsSEtFYQHErjpjswcINpq1L8QiE3du/g/MX4Al0m+NJHOPzJH6xvlA3Wj2VTHDo3CkKzqonBxhZhjiDkR8lF2r0W07V7Yicg4NtgkcfCuMWbFR5WsIXm1/DFicfkNNcVfOFZ8hHL5XaKGdM5tgV7oNyJwU2a6zcOncOaIh+qnULSIX5pwjiJ9rmBGTtyxdLkvg+zfwToWTCeuxMe9Axk/QI//q37LLJjaAXplI4t2G6oqeBYfzalfVE2zdNAWt3aCHcCzAhDBMI5WN5f+s6c8119kYla6KKOlrnNAA59o0mv0ta7Fu1vc4k3jqtXwkEqnlWf8kswd/S5B4x2qNyhC0rZODcDJCdhfUvDOfUWImJlHxvg0w7WhWGnd4sSul/pPdjfG/LKEv2IQYLeU=
+    properties :
+     x : 207
+     y : 22
+     width : 96
+     height : 36
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         ChangeModeAgenda(AgendaMode_Mois)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : AGD_RDV
+    identifier : 0x2be9ac0c119a9c8a
+    internal_properties : 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
+    properties :
+     y : 84
+     width : 320
+     height : 323
+    type : 76
+    code_elements :
+     type_code : 107
+     p_codes :
+      -
+        code : |1-
+         PROCEDURE AvantCréation(rdvCréé est un RendezVous)
+         
+         OuvreFenêtreMobile(FEN_SaisieRDV,rdvCréé)
+        type : 135
+      -
+        code : |1+
+         PROCEDURE EntréeEnSaisie(rdvEdité est un RendezVous)
+        type : 136
+      -
+        code : |1+
+         PROCEDURE SortieDeSaisie(rdvModifié est un RendezVous)
+        type : 137
+      -
+        code : |1-
+         PROCEDURE Sélection(rdvSélectionné est un RendezVous)
+         
+         gRDVSélectionné = rdvSélectionné
+         OPT_Editer..Visible = vrai
+        type : 130
+      -
+        code : |1-
+         PROCEDURE Déplacement(rdvDéplacé est un RendezVous)
+         
+         HLitRecherche(rdv,IDRDV,rdvDéplacé.iD)
+         rdv.DateDébut = rdvDéplacé.DateDébut
+         rdv.DateFin = rdvDéplacé.Datefin
+        type : 131
+      -
+        code : |1+
+         PROCEDURE Redimensionnement(rdvRedimensionné est un RendezVous)
+        type : 132
+      -
+        code : |1+
+         PROCEDURE Suppression(rdvSupprimé est un RendezVous)
+        type : 134
+      -
+        code : |1-
+         
+         RafraichitInfoAgenda
+        type : 138
+  -
+    name : BTN_NouveauRDV
+    identifier : 0x2be9ac0d119ea3ce
+    internal_properties : CAAAAAgAAABSUZh1wA7vYxyS+6nNA1JozKwpUvFOjuRJW+8pBa4hp+H0dVKO2aV4VuQiJq6EbFLFrgsa7iATRYh2UkZx0YjZEnVkv4n7hexj86brlE+Bh+0eERWWiRg7S03yyKTknTOO33SjiMNttZAmWKYqO7DVMeD4+A0IplWBjFN1MlBYkcpLw37veMqRKZAtwAE64WVKkA9Iz72JxQr7UYSlnYpLKScgl8GuAaKmAiS0P06cWjnGBgu9yoIP/dv0MUGq83BfamBs6BvLllTQSyJ0jkle3PTbB4r+ljLZMjuU4U41lE7dwDlQbHDZaSmpqRIFfMRdqx5EvLFq7LUP0rAVJeUskfO+tvv9EZ1gQl6rK5CGSLC5VaSIYwedx566tFmtEn+HckicbBQG0YVkArvHkOOoClsB2CxlD4cdB2lbs6D4Omb7EwZuQ0zhg0VUBVuTR6wlnJp5/Iud61834XvLa95XLglzbdslQKue2c3Qk5dluc+wlIRl5SEnWdhxlShHokZOcxb0JPgAGLz1yHISQIztMPbl+jX3+P4WLDnUIcyHjFMyEohaTkZ8Efz9Ibz8ey0AfateC232M9BdSMkBwqA9m5lL1AgsBP5w5SY0Jki4sbGKie46SiP9q52nDU9epTpFkH0lAT+GM+RNhmWB8Z2TltnAH38buzMjDpsvYgBNiqifTH3oyEytj5ej5nPSzzITm16T+9qKXxjZZoZCH8vOi7iR+EbHx4G/abUHhfBckuQJFUx0vBeGaNP7/XoVvp3yeRzW0jezagNzNUQFpNg/x48oaPBXo9qT7ggXYf8RaigUsG2RM6ZVlm3WIjusCBykfamcUaniZ7+DbOH0SajYVn3x8PpW7gcGF3AqL3Sf5kcXm7LQmBA+V76u9Q==
+    properties :
+     x : 236
+     y : 323
+     width : 76
+     height : 76
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         rdv est un RendezVous
+         rdv.DateDébut = AgendaPosition(AGD_RDV) + "1000"
+         rdv.Datefin = AgendaPosition(AGD_RDV) + "1200"
+         OuvreFenêtreMobile(FEN_SaisieRDV,rdv)
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2be9a5d711605e6d
+  internal_properties : CAAAAAgAAABUxZNtKQV40kkNDT3Eo/ytsm64EoWolFHeEYd9ja55jimMYGp6+PcZ7iB2QUsZiqj01NJt54NGopjyV4P5eyN+CDjoWjh0CW3UZ2NrU1K0veUSYFPjHqkglDpZqmKZ7gy0W4a0koxrQtMJKMsIYOMnxeHJh/reWawgqr1UILl3A7xvmMUio1UsFYWEnXDYURnK9fpnqrmqZWJqprGbO7xKPWKojqJXstLAjEej+vVjIhxsfAw15BFzLv2Qe8rbnBR3PJfS0Wo2hbUJRoDns7LdqYljQNTAnNVCuFOdHVGb
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_Editer
+     identifier : 0x2bebe10218918616
+     internal_properties : CAAAAAgAAABmZxOLGyw/isaK4ZoErvHP1f/fECkHRMfNjbgPj1JSafmWVayyakeq97nVptNiEHxcc5pyd1AofsnPxC3dnb2Ywoj7TCWWj34llRc7D+lTQX9mVNHCJ3P1BeKUIz7mmQdXFwk1CfPAPqycs+y7jaHriyoCDWtNERumNacv/cmVigd7iW/xhNW9/lBCuaqwibm4jq7+7j7NDPO+a0cKVHymW2vwIG/0J2DIS6DEcNGMPiH0x1C1B79igL48Fr1zA2ZyRQeIEdgm6kIIE/4lVJaQaVhh4hqpoCHXm+xW+ByBLA5Abv/2WCOAYzAjCcTFmI0mzHgvdPoKNxb0WgE=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          OuvreFenêtreMobile(FEN_SaisieRDV,gRDVSélectionné)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  internal_properties : CAAAAAgAAACXiHbz5sxAgg5oBw263mrRnl5QmeWZ2tcO8dL8nvaYYNJAxuxYRbm37sT8zEv+32HGTo1rg0gLMk+wPSg2esA=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+      
+      // Modes de l'agenda
+      EAgendaMode est une énumération
+      	AgendaMode_Jour
+      	AgendaMode_Semaine_5
+      	AgendaMode_Semaine_7
+      	AgendaMode_Mois
+      FIN
+      
+      // Mode par défaut
+      geModeAgenda est un EAgendaMode
+      gRDVSélectionné est un RendezVous
+      
+      // Si l'application est sur un grand écran (tablette ou PC)
+      SI TypeEcran() DANS (teTablette, teOrdinateur) ALORS
+      	// Tablette
+      	geModeAgenda = AgendaMode_Semaine_5
+      SINON
+      	// Téléphone
+      	geModeAgenda = AgendaMode_Jour
+      FIN
+      
+      
+      // Changement du mode
+      ChangeModeAgenda(geModeAgenda)
+   -
+     code : |1+
+      
+      // Initialisation de la base de données
+      InitDB()
+      
+      // Remplissage de l'agenda
+      RafraichitAgenda()
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : ChangeModeAgenda
+     procedure_id : 2011681686955531650
+     type_code : 14
+     code : |1-
+      // Résumé : Change le mode de l'agenda
+      // Syntaxe :
+      //ChangeModeAgenda (<eMode> est FEN_Accueil.EAgendaMode)
+      //
+      // Paramètres :
+      //	eMode (FEN_Accueil.EAgendaMode) : Le mode à afficher
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE ChangeModeAgenda(eMode est un EAgendaMode) <ihm>
+      
+      BTN_Jour..Enfoncé = faux
+      BTN_Semaine..Enfoncé = faux
+      BTN_Mois..Enfoncé = faux
+      
+      geModeAgenda = eMode
+      
+      selon eMode
+      	CAS AgendaMode_Jour
+      		BTN_Jour..Enfoncé = vrai
+      		AGD_RDV.ChangeMode(agzJour)
+      	CAS AgendaMode_Semaine_5
+      		BTN_Semaine..Enfoncé = vrai
+      		AGD_RDV.ChangeMode(agzSemaineSur5)
+      	CAS AgendaMode_Mois
+      		BTN_Mois..Enfoncé = vrai
+      		AGD_RDV.ChangeMode(agzMois)
+      		
+      FIN
+      
+      RafraichitInfoAgenda()
+     type : 458752
+   -
+     name : RafraichitAgenda
+     procedure_id : 2011681686955597530
+     type_code : 14
+     code : |1-
+      // Résumé : Rafraîchit l'agenda
+      //
+      PROCEDURE RafraichitAgenda() 
+      
+      AGD_RDV.SupprimeTout()
+      
+      pour TOUT rdv 
+      	monrdv est un RendezVous
+      	
+      	monrdv.Titre = rdv.Titre
+      	monrdv.Contenu = rdv.Contenu
+      	monrdv.DateDébut = rdv.DateDébut
+      	monrdv.DateFin = rdv.DateFin
+      	
+      	monrdv.ID = rdv.IDRDV
+      	
+      	// Recherche de la couleur
+      	HLitRecherche(fondrdv,IDFondRDV,rdv.IDFondRDV)
+      	monrdv.CouleurFond	= HTMLVersRVB(fondrdv.CouleurFond)
+      	
+      	AGD_RDV.AjouteRendezVous(monrdv)
+      FIN
+     type : 458752
+   -
+     name : RafraichitInfoAgenda
+     internal_properties : CAAAAAgAAABE/MVF5aMcL76pBEaXWlOMo74FA7G+zB3cXMB0Xw8mH65mtt7N/lxw9mTVQhIPIwmg8Y+KRdn5XJOmcuSc3mL0B7Oo9URtGWVkU7W5N1/3z8B77Ni077BPL5wX36RNiezmzeaWe65eGWmUn9Cxc7AZhOJoMe9gJzwxrn31ctq2rwrkFrYH9Fm0og+Rh1omPzvI3fC9ZHguVAWkuigjjigLYdoCkoIf
+     procedure_id : 2011681755675155896
+     type_code : 14
+     code : |1-
+      // Résumé : Rafraîchit les infos d'agenda
+      //
+      PROCEDURE RafraichitInfoAgenda() <IHM>
+      
+      dDebut est une date = AgendaPosition(AGD_RDV)
+      
+      
+      
+      selon geModeAgenda
+      	CAS AgendaMode_Jour
+      		MaFenêtre..titre = "Champ Agenda"
+      	CAS AgendaMode_Semaine_5,AgendaMode_Semaine_7
+      		MaFenêtre..Titre = "Semaine " + NuméroDeSemaine(dDebut)		
+      	CAS AgendaMode_Mois
+      		<COMPILE SI TypeConfiguration=Android>
+      			MaFenêtre..Titre = DateVersChaîne(AgendaPosition(AGD_RDV,agMoisEnCours),"Mmmm")
+      		<sinon>
+      			MaFenêtre..Titre = "Champ Agenda"
+      		<FIN>
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x10fae9b71b9a2e52
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
